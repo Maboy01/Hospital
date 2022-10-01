@@ -1,0 +1,22 @@
+package Java;
+
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
+/**
+ *
+ * @author LENOVO
+ */
+public class Medico extends Persona{
+
+    public Medico(String nombre, String apellido) {
+        super(nombre,apellido);
+    }
+    public void mostrarA(){
+        System.out.println("Doctor: "+getNombre()+""+getApellido());
+    }
+    
+    
+}
